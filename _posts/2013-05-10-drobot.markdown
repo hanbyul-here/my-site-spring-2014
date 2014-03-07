@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Drobot"
+category: Installation
+season: Winter, 2012
+date:  2012-12-01
+thumbnail: img/background/drobot.jpg
+photos: http://www.flickr.com/photos/46772183@N02/sets/72157641981724905/
+video: https://vimeo.com/59812783
+---           
+
+'Drobot' is a drawing robot controlled by people, giving the user a unique drawing experience. 'Drobot' was selected as part of Sony Wonder Technology Lab's special 1-day event.

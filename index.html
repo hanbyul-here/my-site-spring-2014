@@ -1,0 +1,51 @@
+---
+layout: default
+title: Hanbyul Jo
+---
+  <div class="row">
+    <!-- Main Blog Content -->
+    <div style="padding:0px"class="large-12 " role="content"> 
+
+          {% for post in site.posts %}
+            
+              <div style="margin:5px; background:url({{post.thumbnail}}) repeat center;" class="large-4 small-12 columns">
+                <div class="p-title">
+                    <div class="title"> 
+                      
+                      {{post.title}}
+                      <div class="sub-title">
+                        {{post.category}}, {{post.season}} 
+                      </div> 
+                    </div>
+                </div>
+                <div class="p-desc">
+                 
+                   {{post.content}}
+            
+                    {%if post.video %}
+                      <a class="styled-link" href="{{post.video}}" target="blank"> video</a>  
+                    {%endif%}
+
+                    {%if post.photos %}
+                      <a class="styled-link" href="{{post.photos}}" target="blank"> photos</a>  
+                    {%endif%}
+
+                    {%if post.code %}
+                      <a class="styled-link" href="{{post.code}}" target="blank"> code </a> 
+                    {%endif%}
+                    {%if post.link %}
+                      <a class="styled-link" href="{{post.link}}" target="blank"> link </a> 
+                    {%endif%}
+                    <br><br>
+
+                
+
+                </div>
+              </div>
+            
+          {% endfor %}
+  
+      </div>
+    </div>
+    <!-- End Main Content -->
+ 

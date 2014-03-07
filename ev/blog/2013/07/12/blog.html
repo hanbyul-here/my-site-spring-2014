@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         
+  <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width"/>
+      <title> Hanbyul Jo</title>
+
+  <link rel="stylesheet" href="http://hanbyul-crew.github.io/css/foundation.css" />
+  <link rel="stylesheet" href="http://hanbyul-crew.github.io/css/style.css" />
+
+  <script type="text/javascript" src="js/vendor/custom.modernizr.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+</head>
+<body>
+    <body>
+
+<!-- Nav Bar -->
+
+  <div class="row">
+    <div class="large-3 columns">
+      <a href="http://hanbyul-crew.github.io/">
+    <div id="content">
+      <div>
+       <!-- <canvas id="hbcrewlogo" data-processing-sources="http://hanbyul-crew.github.io/hbcrew_logo.pde" 
+            width="300" height="100">-->
+
+           <h5 style="display:inline;"> </h5>
+         <!-- <p>Your browser does not support the canvas tag.</p>
+          <!-- Note: you can put any alternative content here. -->
+        <!--</canvas>-->
+       <!-- <noscript>
+          <p>JavaScript is required to view the contents of this page.</p>
+        </noscript>-->
+        </div>
+    </div>
+      </a>
+    </div> 
+    <div class="large-9 columns">
+         
+      <ul class="button-group right">
+        <li><a href="http://hanbyul-crew.github.io" class="button" style="padding:0 0 0 0;margin:0 0 0 0;"><img src = "http://hanbyul-crew.github.io/img/background.jpg"></a></li>
+        <li><a href="http://hanbyul-crew.github.io/works.html" class="button"> Works </a></li>
+        <li><a href="http://hanbyul-crew.github.io/blog.html" class="button"> Blog </a></li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- Navigation -->
+ 
+    <!-- End Navigation -->
+ 
+                <h2>Break Me</h2>
+<p class="meta">12 Jul 2013</p>
+
+<div class="post">
+<p>드디어 한별단 홈페이지 리뉴얼이 끝났습니다. 아직 자질구레하게 손 봐야할 것들이 좀 있지만, 우선 끝났다고 해둡시다. (흑흑) 이번 리뉴얼 때는 크게 두 가지를 중점으로 두었습니다. 첫째는 업데이트가 간편해야할 것, 둘째는 브라우저 반응형이어야 할 것.</p>
+
+<h3 id='___'>업로드가 간편해야 할 것</h3>
+
+<p>전 멤버가 여기저기 흩어져있는 지금, 완성된 느낌의 포트폴리오 사이트보다는, 그 때 그 때 공유할 수 있는 것들을 간편하게 올릴 수 있는 블로그 형태의 홈페이지를 가지는 것이 좋다고 생각했습니다. 처음엔 블로그 부분만 간단히 외부 블로깅 시스템과 연동시킬까 생각해보았는데, 어쩐지 다들 마음에 안 드는 부분이 한 가지씩은 있는 외부 서비스들. 그래서 고민하다가 찾아낸 것이 바로 Jekyll 입니다.</p>
+
+<h3 id='jekyll'><a href='http://jekyllrb.org'>Jekyll</a></h3>
+
+<p>지킬은 루비를 기반으로 한 &#8220;simple, blog-aware, static site generator&#8221; 입니다. 마크다운 파일로 컨텐츠 관리를 할 수 있으며 한 번 러닝할 때마다 변경된 컨텐츠를 반영하는 사이트를 만들어냅니다. 즉, 골치아픈 데이터 베이스가 필요없으며, 간단히 마크다운 파일을 추가하는 방식으로 컨텐츠를 관리할 수 있다는 이야기! 약간의 루비 언어만 익히고 있으면, (사실 단순히 사용을 위해서라면은 루비 언어 자체에 대한 이해조차 필요없습니다. 루비 변수를 html 파일 내에서 읽어들이는 방법만 알고 있으면 별 문제 없이 사용 가능! ) 스타일 적용, 문서 수정 등이 매우 간편해서 개인적으로는 매우 만족하였습니다. 기덥 페이지와 연동되어 기덥에 푸시하는 것만으로도 업데이트 되는 것도 편한 점 중 하나였습니다. 현재 work 와 blog 페이지 모두 마크다운 파일을 활용하여 관리하고 있으며, feed 페이지만 인스타 그램 api 로 따로 관리하고 있습니다.</p>
+
+<h3 id='__'>브라우저 반응형 디자인</h3>
+
+<p>감상하는 컨텐츠보다 읽히는 컨텐츠로 채워지길 바랬던 지라, 모바일 사이트에 대한 욕심이 생기더군요. 그러나 모바일용 사이트를 따로 만드는 것은 고통&#8230; 다행히 지킬을 사용하고 있으니 따로 데이터 베이스에 대한 고민을 할 필요가 없으니 스타일만 적절히 적용하면 되지만 모든 요소를 전부 고려하여 브라우저 반응형 스타일 시트를 만드는 것 역시 또한 고통&#8230; 그러나 다행히도 세상엔 파운데이션4가 있었습니다.</p>
+
+<h3 id='foundation4'><a href='http://foundation.zurb.com/'>Foundation4</a></h3>
+
+<p>파운데이션은 간단하게 설명하자면 브라우저 반응형 디자인 프레임워크입니다. 각종 div 들 정렬은 물론, img 나 video 등 브라우저 반응형을 만들기 위해 일일이 신경써야하는 요소들이 전부 포함되어 있어서 감격의 눈물을 흘리며 사용하였습니다. (아직 canvas tag 는 지원하지 않습니다만, canvas tag는 태그 특성상 얼마간 힘들지 않을까 싶습니다. 현재 사이트 메인 페이지의 캔버스는 제이쿼리를 이용해서 조정하고 있습니다.) 물론 프레임워크이니만큼 커스텀 하는 데에 있어서 좀 어려운 부분은 있지만, css 에 익숙하신 분들은 금방 사용하실 수 있습니다.</p>
+
+<p>모두가 함께할 수 있는 공간을 만드는 건 온라인이든, 오프라인이든 즐거운 일이지만 사이트를 만드는 실질적인 과정 자체는 고통으로 가득차기 쉬운 과정이죠, 잘 정리되어있는 프레임워크는 이러한 과정에서 즐거움에 좀 더 촛점을 맞출 수 있도록 도와주는 듯 합니다.</p>
+</div>
+  
+
+ 
+    <!-- End Sidebar -->
+
+   <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        
+        <div class="large-6 columns">
+          <p> Supported by <a href="http://jekyllrb.com/">Jekyll</a>
+          </p>
+        </div>
+        
+        <div class="large-6 columns">
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
