@@ -8,4 +8,4 @@ category: Installation
 video: https://vimeo.com/32706947
 ---           
 
-'Occupy the Administration Centre' is a guerilla interactive media project against Seoul National University's incorrigible decision on incorporation.
+'Occupy University!' is a guerilla interactive media project against Seoul National University's incorrigible decision on incorporation. This series went along with students' occupation of administrative building. Cooperated with Inho Won, Seth Oh, Sungjin Nam.

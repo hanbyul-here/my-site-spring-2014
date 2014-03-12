@@ -8,4 +8,4 @@ thumbnail: img/background/break-me.jpg
 video: https://vimeo.com/27228269
 ---
 
-'Break Me' is an interactive installation on stairs which responses to audiences' steps. Exhibited in Game + Interactive Media Art, Museum of Art, Seoul National University. 
+'Break Me' is an interactive installation on stairs which responses to audiences' steps. Cooperated with Inho Won, Sungjin Nam. Exhibited in Game + Interactive Media Art, Museum of Art, Seoul National University. 

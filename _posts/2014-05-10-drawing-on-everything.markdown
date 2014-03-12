@@ -8,4 +8,4 @@ thumbnail: img/background/drawing-on-everything.png
 video: http://www.youtube.com/watch?v=Fh2jTk1nRdw
 ---           
 
- 'Drawing On Everything' is interactive video designed for performance.
+ The result from 'Drawing On Everything' class is interactive video designed for performance. Projected canvas reacts to narrative of performance, varying its shapes and patterns.
