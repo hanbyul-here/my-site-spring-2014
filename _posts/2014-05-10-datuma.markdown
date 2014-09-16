@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Datuma"
+season: Spring,2014
+category: Installation
+thumbnail: img/background/datuma.png
+photos: http://www.flickr.com/photos/46772183@N02/sets/72157641756689834/
+code: https://github.com/hanbyul-here/UnfoldingBoxWithP5
+---
+
+'Datuma' is a data sculpture series about New York City gentrification that navigates the individual story within the scope of a big dataset. First hand interviews about gentriication were mined from New York Times, and they were combined with income level change data over 6 years in New York City in paper sculpture form. 

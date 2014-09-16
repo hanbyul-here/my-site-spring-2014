@@ -274,7 +274,8 @@ select {
 
   .large-4 {
     position: relative;
-    width: 33.33333%;
+    float:left;
+    width: 32.0%;
     width: -moz-calc(33.33333% - 10px);
     width: -webkit-calc(33.33333% - 10px);
     width: calc(33.33333% - 10px);

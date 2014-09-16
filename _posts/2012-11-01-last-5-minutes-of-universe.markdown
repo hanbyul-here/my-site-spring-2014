@@ -9,4 +9,4 @@ video: https://vimeo.com/55632281
 code: https://github.com/hanbyul-here/last-5-minutes-universe
 ---
 
-'Last 5 minutes Universe' is conceptual video visualizing people's interviews, collaborated with Negar Behbahani, David Lobser,and Dextor Miranda.
+'Last 5 minutes Universe' is a visualization of people's answers for "What are you going to do for the last 5 minutes of the Earth", collaborated with Negar Behbahani, David Lobser, and Dextor Miranda.
